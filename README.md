@@ -1,5 +1,5 @@
 Hi, I'm Amir Hossein 🙂
-- 👋 I’m back-end programmer & developer who fluent in ASP.NET Core.
+- 👋 I’m back-end programmer & developer who fluent in NET.
 - ✊ I overcome my problems with the method of unceasing effort.
 - 👁️‍🗨️ I consider experience and continuous learning as the secret of a programmer's success.
 - ✌ I am interested in teamwork and one of my goals is to enter the world of BlockChain programming.
