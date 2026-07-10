@@ -15,7 +15,7 @@ I am a **Backend Software Architect** specializing in the **.NET ecosystem**. My
 Over the years, I have architected mission-critical platforms for national enterprises, government sectors, and large-scale municipalities. I thrive in the deep end of concurrency, state-machine orchestration, and bulletproof security layers.
 
 * 🔭 I’m currently architecting native **BPMN 2.0** & **DMN** execution engines.
-* 🌱 I’m exploring **Native AOT** and **.NET 10** capabilities.
+* 🌱 I’m exploring **.NET 10** and **performance optimization**.
 * ⚡ **Fun fact:** I write literary fantasy when I'm not writing C#.
 
 ---
@@ -39,7 +39,7 @@ A lightweight, provider-agnostic, dynamic query engine for .NET 10. Build comple
 
 * **Native Hierarchical Grouping:** Generates deeply nested `key/count/items` JSON trees directly from SQL.
 * **Zero Boilerplate:** Beautiful Fluent API or raw JSON payload acceptance from any frontend.
-* **Native AOT & .NET 10:** Built on `System.Text.Json` and Dapper. Zero heavy reflection overhead.
+* **Performance & .NET 10:** Built on `System.Text.Json` and Dapper. Zero heavy reflection overhead.
 
 </details>
 
