@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="https://gravatar.com/instantlycc0316cf35"><img src="https://img.shields.io/badge/Gravatar-Profile-1E8CBE?style=flat-square&logo=gravatar&logoColor=white" alt="Gravatar"></a>
-  <a href="https://www.linkedin.com/in/amirhosseinmp02"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:amirhosseinmp02@gmail.com"><img src="https://img.shields.io/badge/Email-amirhosseinmp02@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <br>
