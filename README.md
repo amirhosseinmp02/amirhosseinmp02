@@ -16,6 +16,32 @@ Over the years, I have architected mission-critical platforms for national enter
 
 ---
 
+### 📂 Open Source & Architectural Explorations
+
+I believe in building in public and pushing the boundaries of the .NET ecosystem. Here is a selection of my open-source work, engineered for scale, security, and developer experience.
+
+#### ⚡ Flagship: PepperX.QueryForge
+> *A lightweight, provider-agnostic, dynamic query building and execution engine for .NET 10.*
+
+| 🌟 Core Capabilities | 🛡️ Enterprise Security | 🖥️ Frontend Grid Synergy |
+| :--- | :--- | :--- |
+| **Native Hierarchical Grouping:** Generates deeply nested `key/count/items` JSON trees directly from SQL. | **Bulletproof Validation:** Built-in `SilentStrip` mode prevents schema enumeration and malicious data dumps. | **Purpose-Built for UI Grids:** The ultimate backend counterpart for **DevExtreme**, **AG Grid**, and **Kendo UI**. |
+| **Zero Boilerplate:** Beautiful Fluent API or raw JSON payload acceptance from any frontend. | **Strict Mode:** Throws granular `QueryValidationException`s for internal API governance. | **Complex Filtering:** Natively parses deeply nested `AND` / `OR` / `AND NOT` logic groups. |
+| **Native AOT & .NET 10:** Built on `System.Text.Json` and Dapper. No heavy reflection overhead. | **Automated Schema:** `IHostedService` auto-deploys required Stored Procedures on startup. | **Server-Side Paging:** Accurately paginates top-level groups or flat rows with total counts. |
+
+<p align="center">
+  <a href="https://www.nuget.org/packages/PepperX.QueryForge.Dapper"><img src="https://img.shields.io/badge/NuGet-PepperX.QueryForge.Dapper-512BD4?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet Dapper"></a>
+  <a href="https://github.com/amirhosseinmp02/PepperX"><img src="https://img.shields.io/badge/GitHub-Explore_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
+</p>
+
+#### 🧪 Architectural Sandboxes
+| 📦 Repository | 🛠️ Architecture & Tech Stack | 📖 Overview |
+| :--- | :--- | :--- |
+| **[Aroma-Store](https://github.com/amirhosseinmp02/Aroma-Store)** | `.NET Core` `EF Core` `Clean Arch` | A full-featured eCommerce platform built strictly on **Clean Architecture** principles. Demonstrates mastery of domain boundaries, code-first DB design, and repository patterns. |
+| **[BitcoinMiningCalculator](https://github.com/amirhosseinmp02/BitcoinMiningCalculator)** | `ASP.NET Core` `Razor Pages` `PHP` | A financial utility for calculating crypto mining profitability. Engineered with resilient API proxy integrations to bypass regional network sanctions and restrictions. |
+
+---
+
 ### 🧠 The Crown Jewels: Native BPMN & DMN Engines
 
 Rather than relying on heavy, black-box third-party workflow libraries, I engineered **fully native, from-scratch execution engines** for enterprise business logic. These systems currently power thousands of daily operations for major governmental and semi-governmental organizations.
@@ -30,28 +56,6 @@ Rather than relying on heavy, black-box third-party workflow libraries, I engine
 *   **Decoupled Business Rules:** Architected a complete DMN backend that allows business analysts to define complex decision tables and literal expressions without requiring C# code deployments.
 *   **High-Performance Evaluation:** Built a lightning-fast rule evaluation engine capable of processing complex, multi-hit decision tables in memory with minimal overhead.
 *   **Seamless Integration:** Integrated the DMN engine directly into the BPMN execution pipeline, allowing dynamic business rule tasks to resolve seamlessly during workflow orchestration.
-
----
-
-### 📂 Open Source & Architectural Explorations
-
-I believe in building across the entire stack and experimenting with different architectural paradigms. Here is a selection of my open-source work:
-
-<p align="center">
-  <a href="https://github.com/amirhosseinmp02/PepperX">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amirhosseinmp02&repo=PepperX&theme=tokyonight&hide_border=true&show_owner=true" alt="PepperX Repo" />
-  </a>
-  <a href="https://github.com/amirhosseinmp02/Aroma-Store">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amirhosseinmp02&repo=Aroma-Store&theme=tokyonight&hide_border=true&show_owner=true" alt="Aroma-Store Repo" />
-  </a>
-  <a href="https://github.com/amirhosseinmp02/BitcoinMiningCalculator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amirhosseinmp02&repo=BitcoinMiningCalculator&theme=tokyonight&hide_border=true&show_owner=true" alt="BitcoinMiningCalculator Repo" />
-  </a>
-</p>
-
-*   ⚡ **PepperX.QueryForge:** An enterprise-grade, provider-agnostic dynamic query engine for .NET 10. Features native hierarchical grouping, `SilentStrip` security validation, and automated schema deployment via OIDC Trusted Publishing.
-*   🛒 **Aroma-Store:** A full-featured eCommerce platform built on **Clean Architecture** principles using .NET Core and EF Core (Code-First). Demonstrates mastery of domain boundaries, repository patterns, and scalable web design.
-*   📈 **BitcoinMiningCalculator:** A financial utility built with **ASP.NET Core Razor Pages** for calculating cryptocurrency mining profitability. Engineered with resilient API integration strategies to bypass regional network restrictions and proxy requirements.
 
 ---
 
@@ -71,30 +75,30 @@ I believe in building across the entire stack and experimenting with different a
 | **Engines & Logic** | `BPMN 2.0`, `DMN`, `State Machines`, `Quartz.NET`, `FluentValidation` |
 | **Architecture** | `Microservices`, `DDD`, `CQRS`, `Clean Architecture`, `Modular Monoliths` |
 | **Data & Resilience** | `SQL Server`, `EF Core`, `Dapper`, `Custom ADO.NET`, `Redis`, `Elasticsearch` |
-| **Messaging & DevOps** | `RabbitMQ`, `SignalR`, `Docker`, `GitHub Actions (CI/CD)`, `Ocelot` |
-| **Security** | `OAuth2/OIDC`, `JWT (RSA)`, `SSO`, `WebPush` |
+| **Messaging & Realtime** | `RabbitMQ`, `SignalR`, `SSE (Server-Sent Events)`, `WebPush`, `Docker`, `GitHub Actions` |
+| **Security** | `OAuth2/OIDC`, `JWT (RSA)`, `SSO`, `Trusted Publishing (OIDC)` |
 
 ---
 
-### 📊 GitHub Analytics & Achievements
+### 📊 Community & Ecosystem Footprint
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amirhosseinmp02&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amirhosseinmp02&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirhosseinmp02&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=amirhosseinmp02&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+  <a href="https://github.com/amirhosseinmp02?tab=repositories">
+    <img src="https://img.shields.io/badge/Dynamic_Query_Engines-Published_to_NuGet-0078D4?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet">
+  </a>
+  <a href="https://github.com/amirhosseinmp02?tab=repositories">
+    <img src="https://img.shields.io/badge/BPMN_%26_DMN-Engines_Architected-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
+  </a>
+  <a href="https://github.com/amirhosseinmp02?tab=repositories">
+    <img src="https://img.shields.io/badge/Clean_Architecture-Enterprise_E--Commerce-28A745?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
 </p>
 
 ---
 
 ### 🎓 Education & Accolades
 
+*   **MSc. Software Engineering** | *Islamic Azad University* (2026 - Present)
 *   **BSc. Computer Engineering** | *Islamic Azad University* (2023 - 2025)
 *   **Associate's, Computer Software Engineering** | *Shamsipour Technical and Vocational College, Tehran* (2021 - 2023)
     *   🏆 **Achieved 147th National Rank** in the National Computer Technical Entrance Exam.
