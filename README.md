@@ -12,10 +12,11 @@
 
 I am a **Backend Software Architect** specializing in the **.NET ecosystem**. My engineering philosophy sits at the intersection of complex business orchestration and high-performance distributed systems. I don't just write APIs; I build the underlying engines that allow enterprises to model, execute, and scale their core business logic autonomously.
 
-Over the years, I have architected mission-critical platforms for national enterprises, government sectors, and large-scale municipalities. I thrive in the deep end of concurrency, state-machine orchestration, and bulletproof security layers.
+Over the years, I've shipped efficient, production-hardened solutions for **40+ governmental, semi-governmental, and private organizations** nationwide — including **Construction and Development of Transportation Infrastructures Company (CDTIC)**, the municipalities of **Tehran, Mashhad, and Tabriz**, and the **Persian Gulf Star Oil Company** — across organizational automation, e-commerce, and financial systems. I thrive in the deep end of concurrency, state-machine orchestration, and bulletproof security layers.
 
-* 🔭 I’m currently architecting native **BPMN 2.0** & **DMN** execution engines.
-* 🌱 I’m exploring **.NET 10** and **performance optimization**.
+* 🔭 I'm currently architecting native **BPMN 2.0** & **DMN** execution engines.
+* 🌱 I'm exploring **.NET 10** and **performance optimization**.
+* 🌍 Based in Mashhad, Iran &nbsp;|&nbsp; 🗣️ Persian (Native), English (Advanced)
 * ⚡ **Fun fact:** I write literary fantasy when I'm not writing C#.
 
 ---
@@ -68,13 +69,13 @@ A lightweight, provider-agnostic, dynamic query engine for .NET 10. Build comple
 | 📦 Repository | 🛠️ Architecture & Tech Stack | 📖 Overview |
 | :--- | :--- | :--- |
 | **[Aroma-Store](https://github.com/amirhosseinmp02/Aroma-Store)** | `.NET Core` `EF Core` `Clean Arch` | A full-featured eCommerce platform built strictly on **Clean Architecture** principles. Demonstrates mastery of domain boundaries, code-first DB design, and repository patterns. |
-| **[BitcoinMiningCalculator](https://github.com/amirhosseinmp02/BitcoinMiningCalculator)** | `ASP.NET Core` `Razor Pages` `PHP` | A financial utility for calculating crypto mining profitability. Engineered with resilient API proxy integrations to bypass regional network sanctions and restrictions. |
+| **[BitcoinMiningCalculator](https://github.com/amirhosseinmp02/BitcoinMiningCalculator)** | `ASP.NET Core` `Razor Pages` `PHP` | A financial utility for calculating crypto mining profitability. Shipped as both an ASP.NET and a raw PHP version. |
 
 ---
 
 ### 🧠 The Crown Jewels: Native BPMN & DMN Engines
 
-Rather than relying on heavy, black-box third-party workflow libraries, I engineered **fully native, from-scratch execution engines** for enterprise business logic. These systems currently power thousands of daily operations for major governmental and semi-governmental organizations.
+Rather than relying on heavy, black-box third-party workflow libraries, I engineered **fully native, from-scratch execution engines** for enterprise business logic at **Graph BPMS**. These systems currently power thousands of daily operations for major governmental and semi-governmental organizations.
 
 <details>
 <summary><b>⚙️ Native BPMN 2.0 Execution Engine</b></summary>
@@ -83,7 +84,8 @@ Rather than relying on heavy, black-box third-party workflow libraries, I engine
 * **Complete Node Implementation:** Built 30+ BPMN 2.0 nodes from scratch (Events, Gateways, Activities, Boundary Elements, Sub-processes).
 * **Custom ADO.NET ORM:** Bypassed heavy ORMs to write a hyper-optimized, custom data-access layer specifically designed for state-machine persistence and rapid graph traversal.
 * **Concurrency & Resilience:** Solved deep race conditions in distributed workflow executions using atomic operations, semaphores, SQL transactions, and SQL Server Service Broker.
-* **Distributed Timers:** Engineered a resilient Quartz-based timer system with persistence and failover support for long-running business processes.
+* **Distributed Timers:** Engineered a resilient Quartz-based timer system with persistence and failover support for long-running business processes, eliminating timer-related issues for large deployments like Mashhad Municipality.
+* **Extensibility:** Delivered ScriptTask (C# & JavaScript), CallActivity, and SignalEvent nodes, plus a real-time BAM (process monitoring) platform.
 
 </details>
 
@@ -99,11 +101,36 @@ Rather than relying on heavy, black-box third-party workflow libraries, I engine
 
 ---
 
+### 🔐 Security, Compliance & Platform Hardening
+
+Beyond orchestration engines, I've led focused security and reliability engagements — notably as a **Security & Compliance Consultant** for **ManaAndisheh (GreenWeb Holding)**:
+
+* **Data Integrity:** Implemented hash-based validation to protect database records against tampering.
+* **Traceability:** Established system-wide logging for compliance and audit trails.
+* **Hardened Auth:** Upgraded authentication flows to meet stricter security standards, with encryption aligned to national compliance requirements.
+* **Scalability:** Boosted performance with caching, efficient query design, and scalable APIs — including migrating logged-in session state to **Redis** for horizontal scale.
+* **Proactive Defense:** Continuously identified and resolved system security vulnerabilities before they became incidents.
+
+---
+
 ### 🏛️ Enterprise Scale & Architecture
 
-* 🌐 **Microservices & DDD:** Designed DDD/CQRS-driven ecosystems with **Ocelot** API Gateways and **RabbitMQ** event buses. Employed patterns like Customer-Supplier and Shared Kernel to decouple domains.
-* 🔐 **Identity & Security:** Built custom **OpenID Connect / OAuth 2.0 Identity Providers** utilizing RSA512 JWTs, dynamic API permissions, and Redis-backed distributed session states.
-* 🏢 **National Scale:** Delivered optimized BPMS and automation platforms for entities including the **Construction and Development of Transportation Infrastructures Company (CDTIC)** and major municipalities.
+* 🌐 **Microservices & DDD:** At **Alasaz**, designed a microservices backend on **ASP.NET Core**, with **Ocelot** for secure routing/load balancing and **RabbitMQ** for inter-service communication. Modeled Product and Order domains with DDD/CQRS, using Customer-Supplier and Shared Kernel patterns to keep boundaries clean and coupling low.
+* 🔐 **Identity & Security:** Built a custom **OpenID Connect / OAuth 2.0 Identity Provider** using RSA512 JWTs, with dynamic, role-based API permissions.
+* ⚡ **Caching Layer:** Built an EF Core interceptor-based SQL response cache with invalidation notifications, plus an image caching and thumbnail-generation pipeline.
+* 🏢 **National Scale:** Delivered optimized BPMS and automation platforms for **40+ organizations**, including **Construction and Development of Transportation Infrastructures Company (CDTIC)**, the **municipalities of Tehran, Mashhad, and Tabriz**, and the **Persian Gulf Star Oil Company**.
+
+---
+
+### 💡 Where It Started
+
+Before enterprise platforms, there was a decade of shipping real products on my own:
+
+* 📈 **Power Cool** — Built an ASP.NET Core installment-management system automating payments and pool integration for **200+ mining devices**, reaching a **70% repayment rate** within a year, alongside a WordPress crypto-payment storefront.
+* 🎮 **Alliance Seller / Mir Store** — A trading platform for gaming accounts and licensed CD keys, partnered with **10+ gaming centers**.
+* 🏫 **School Management System** — Deployed at Faeze School, Mashhad, with Excel-based data import for courses, grades, and records.
+* 🧩 **Lightweight CMS** — Drag-and-drop form builder letting non-technical users create and manage custom forms.
+* 🧾 **Accounting → Inventory Platform** — A personal accounting tool that grew into a small-business inventory system with real-time tracking for grocery stores.
 
 ---
 
@@ -143,8 +170,10 @@ Rather than relying on heavy, black-box third-party workflow libraries, I engine
 <br>
 
 * **Architecture:** Microservices, DDD, CQRS, Clean Architecture, Modular Monoliths, BPMN/DMN
-* **Realtime & Web:** SignalR, SSE (Server-Sent Events), WebPush, Minimal APIs, Blazor
+* **Web & Realtime:** ASP.NET (WebForms/MVC/Core), Blazor, Minimal APIs, SignalR, SSE, WebPush, Angular, TypeScript, HTML/CSS/JS
+* **Data:** SQL Server, MySQL, SQLite, MongoDB, Elasticsearch, Redis, WinForms
 * **Security:** OAuth2/OIDC, JWT (RSA), SSO, Trusted Publishing (OIDC)
+* **Tooling & Ops:** Docker, Git, TFS, Serilog, PHP
 
 </details>
 
@@ -152,9 +181,9 @@ Rather than relying on heavy, black-box third-party workflow libraries, I engine
 
 ### 🎓 Education & Accolades
 
-* 🎓 **MSc. Software Engineering** | *Islamic Azad University* (2025 - Present)
-* 🎓 **BSc. Computer Engineering** | *Islamic Azad University* (2023 - 2025)
-* 🏆 **Associate's, Computer Software Engineering** | *Shamsipour Technical and Vocational College, Tehran* (2021 - 2023)
+* 🎓 **MSc. Software Engineering** | *Islamic Azad University, Mashhad* (2026 - Present)
+* 🎓 **Bachelor's Degree, Computer Engineering** | *Islamic Azad University, Mashhad* (2023 – 2025)
+* 🏆 **Associate's Degree, Computer Software Engineering** | *Shamsipour Technical and Vocational College, Tehran* (2021 – 2023)
   * *Achieved **147th National Rank** in the National Computer Technical Entrance Exam.*
 
 ---
