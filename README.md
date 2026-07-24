@@ -24,12 +24,12 @@ Over the years, I've shipped efficient, production-hardened solutions for **40+ 
 ### 🚀 Flagship Open Source: PepperX.QueryForge
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amirhosseinmp02/PepperX/main/icon.png" width="120" alt="PepperX Logo" />
+  <img src="https://raw.githubusercontent.com/PepperX-Dev/QueryForge/main/icon.png" width="120" alt="PepperX Logo" />
 </p>
 
 <p align="center">
   <a href="https://www.nuget.org/packages/PepperX.QueryForge.Dapper"><img src="https://img.shields.io/nuget/v/PepperX.QueryForge.Dapper?style=for-the-badge&logo=nuget&logoColor=white&label=Version" alt="NuGet Version"></a>
-  <a href="https://github.com/amirhosseinmp02/PepperX"><img src="https://img.shields.io/badge/Explore_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
+  <a href="https://github.com/PepperX-Dev/QueryForge"><img src="https://img.shields.io/badge/Explore_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
 </p>
 
 A lightweight, provider-agnostic, dynamic query engine for .NET 10. Build complex, paginated, and hierarchically grouped queries using a fluent C# API or accept them as JSON payloads from any frontend. Published via **OIDC Trusted Publishing** with automated GitHub Actions CI/CD.
